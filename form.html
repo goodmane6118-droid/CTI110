@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<head>
+
+<html lang="en">
+
+<meta charset="UTF-8">
+
+<title>Adventure Time Fan Survey</title>
+<style>
+  body { 
+     background-color: rgb(111, 224, 111);;
+  }
+textarea { background-color: rgb(171, 171, 253);}
+#navList {
+        display: inline;
+        padding: 10px;
+    }
+
+</style>
+</head>
+
+
+
+<body>
+
+<!--Your HTML tags will start here-->
+
+ <h1>Adventure Time Fan Survey</h1>
+ <ul>
+    <li id="navList"><a href="index.html">Home</a></li>
+    <li id="navList"><a href="table.html">Table</a></li>
+    <li id="navList"><a href="form.html">Form</a></li>
+ </ul>
+ <form>
+    <label for="favChara">Select your favorite Adventure Time Main Character:</label><br>
+    <select name="favChara">
+      <option value="finn">Finn</option>
+      <option value="jake">Jake</option>
+      <option value="pb">Princess Bubblegum</option>
+      <option value="bemore">BMO</option>
+    </select>
+    <fieldset>
+   <legend>Choose Your favorite Adventure Time Season</legend>
+     <input type="radio" id="one" name="favSeason" value="SeasonOne">
+     <label for="SeasonOne">Season 1</label><br>
+     <input type="radio" id="two" name="favSeason" value="SeasonTwo">
+     <label for="SeasonTwo">Season 2</label><br>
+     <input type="radio" id="three" name="favSeason" value="SeasonThree">
+     <label for="SeasonThree">Season 3</label><br>
+     <input type="radio" id="four" name="favSeason" value="SeasonFour">
+     <label for="SeasonFour">Season 4</label><br>
+     <input type="radio" id="five" name="favSeason" value="SeasonFive">
+     <label for="SeasonFive">Season 5</label><br>
+     <input type="radio" id="six" name="favSeason" value="SeasonSix">
+     <label for="SeasonSix">Season 6</label><br>
+     <input type="radio" id="seven" name="favSeason" value="SeasonSeven">
+     <label for="SeasonSeven">Season 7</label><br>
+     <input type="radio" id="eight" name="favSeason" value="SeasonEight">
+     <label for="SeasonEight">Season 8</label><br>
+     <input type="radio" id="nine" name="favSeason" value="SeasonNine">
+     <label for="SeasonNine">Season 9</label><br>
+     <input type="radio" id="ten" name="favSeason" value="SeasonTen">
+     <label for="SeasonTen">Season 10</label><br>
+    </fieldset>
+    <textarea id="comment" name="comment"  rows="10" cols="40">
+ Enter your thoughts on Adventure Time here...
+    </textarea>
+    <br><input type="submit" value="Submit" style= "background-color: rgb(255, 191, 71); color:rgb(96, 96, 255);"> <input type="reset" value="Reset" style= "background-color: rgb(255, 191, 71); color:rgb(96, 96, 255)">
+ </form>
+ 
+
+<!--Your HTML tags will end here-->
+
+</body>
+
+</html>
